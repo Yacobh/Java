@@ -1,0 +1,42 @@
+
+public class Variables {
+
+    public static void main(String[] args) {
+        // initialize variables
+        int a;
+        int b;
+        
+        //auxilars variables
+        int aux_sum;
+        int aux_times;
+        
+        // set a value for the variables
+        a = 10;
+        b = 5;
+        
+        // calculation code here.
+        aux_sum =  a + b;
+        aux_times = a*b;
+        
+        //assign the values to the variables
+        a = aux_sum;
+        b = aux_times;
+        
+        // Print your result
+        System.out.println("The variable a is " + a + " and the variable b is " + b);
+        
+        // however, it can be made without the auxiliars variables
+        
+        // set a value for the variables
+        a = 10;
+        b = 5;
+        
+        // calculation code here.
+        a = a + b;
+        b = (a - b)*b;
+        
+        // Print your result
+        System.out.println("The variable a is " + a + " and the variable b is " + b);
+        
+    }
+}
