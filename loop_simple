@@ -1,0 +1,14 @@
+public class Variables {
+
+  public static void main(String[] args) {
+    // initialize variables
+    int a = 1;
+    // while a be less than 16
+    while (a < 16){
+     //increase the value
+     a = a + 3;
+     // Print your result
+     System.out.println(a);
+    }
+  }
+}
