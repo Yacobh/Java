@@ -11,10 +11,11 @@ public class Solution {
         int max = 0;
         int buffer = 0;
         for ( int i = 0; i < binary.length(); i++){
-            if (array[i] == '1')
+            if (array[i] == '1'){
                 buffer++;
-            else{
                 if (buffer > max) max = buffer;
+            }
+            else{
                 buffer = 0;
             }
         }
